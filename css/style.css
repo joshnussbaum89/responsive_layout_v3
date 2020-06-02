@@ -1,0 +1,61 @@
+/* ---- universal selector ------------*/
+
+* {
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+/* ---- body ------------*/
+
+body {
+    color: rgb(60, 60, 60);
+}
+
+/* ---- header, navigation ------------*/
+
+.main-header {
+    background-color: rgb(250, 250, 250);
+    padding-bottom: 2em;
+}
+
+li {
+    list-style: none;
+    background-color: #fff;
+    margin: 0 0 5px;
+    font-weight: 700;
+}
+
+ul {
+    padding-left: 0;
+    margin-bottom: 4em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(60, 60, 60);
+}
+
+.name a,
+.main-nav a {
+	display: block;
+	text-align: center;
+	padding: 15px 0;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 75%;
+}
+
+.site-description {
+    text-align: center;
+    margin: 2.5em .5em; 
+}
+
+
+/* ---- portfolio ------------*/
+
+.portfolio {
+    text-align: center;
+}
