@@ -2,7 +2,7 @@
 
 * {
     box-sizing: border-box;
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 /* ---- body ------------*/
@@ -93,6 +93,23 @@ img {
 h3 {
     font-weight: 500;
     margin-top: 2em;
+}
+
+/* ---- testimonials ------------ */
+
+.testimonials {
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 80%;
+    padding: 20px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 10px;
+    box-shadow: 0px 1px 9px rgba(0,0,0,.4);
+}
+
+.testimonials h4 {
+    text-align: center;
 }
 
 /* ---- footer ------------ */
@@ -215,6 +232,10 @@ h3 {
         padding: 1rem;
     }
 
+    .testimonials {
+        width: 70%;
+    }
+
 /* ---- footer ------------ */
 
     .contact p {
@@ -309,5 +330,11 @@ h3 {
         width: 98%;
         margin: auto;
         border-radius: 10px;
+    }
+
+/* ---- testimonials ------------ */
+
+    .testimonials {
+        width: 60%;
     }
 }
